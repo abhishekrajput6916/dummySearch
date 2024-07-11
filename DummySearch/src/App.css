@@ -63,6 +63,11 @@
     justify-content: space-around;
     align-items: start;
 }
+@media screen and (width<=600px) {
+    .container{
+        grid-template-columns: 1fr;
+    }
+}
 .filters{
     padding: 1rem;
 }
